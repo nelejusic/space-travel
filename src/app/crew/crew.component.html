@@ -1,17 +1,17 @@
 <p class="title">02 MEET YOUR CREW</p>
 <div class="container">
-    <p class="job-desc">COMANDER</p>
-    <p class="crew-member">DOUG</p>
-    <p class="crew-member-resume">ddddddddddddddddddd</p>
-         <mat-tab-group style=" font-style: barlow;" >
-            <mat-tab label="01 MOON" >  </mat-tab>
-            <mat-tab label="02 MARS">  </mat-tab>
-            <mat-tab label="03 EUROPA">  </mat-tab>
-            <mat-tab label="04 TITAN">  </mat-tab>
+    <p class="job-desc">{{role}}</p>
+    <p class="crew-member">{{crewMember}}</p>
+    <p class="crew-member-resume"> {{memberResume}} </p>
+         <mat-tab-group (selectedTabChange)="onTabChange($event)" style=" font-style: barlow; position: absolute;top: 310px; left:px;flex-direction: coulmn;" >
+            <mat-tab label="DOUGLAS H.">  </mat-tab>
+            <mat-tab label="ANOUSHEH A.">  </mat-tab>
+            <mat-tab label="VICTOR G.">  </mat-tab>
+            <mat-tab label="MARK S.">  </mat-tab>
           </mat-tab-group>
 </div>
 
 <div class="crew-picture">
 
-    <img src="../../assets/crew/image-douglas-hurley.png" alt="">
+    <img [src]='crewMemberImg' alt="">
 </div>

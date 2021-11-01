@@ -2,6 +2,7 @@
     position:absolute;
     top:310px;
     left: 400px;
+    
 
 }
 .title{
@@ -13,41 +14,49 @@
     font-family: barlow;
     font-size: 28px;
 }
-.job-desc{
+
+.job-desc{width: 450px;
+    height: 200px;
+
     position: absolute;
     top: 50px;
     font-family: Bellefair;
     font-weight: lighter;
     font-size: 32px;
-    color: rgb(145, 145, 145);
+    color: rgb(162, 162, 162);
 }.crew-member{
-    position: absolute;
-    top: 110px;
+    width: 450px;
+    height: 200px;
+    position:absolute;
+    top: 100px;
+    color: rgb(162, 162, 162);
     font-family: Bellefair;
-    font-size: 52px;
+    font-size: 42px;
     color: whitesmoke;
 }
 .crew-member-resume{
     width: 450px;
     height: 200px;
     position:absolute;
-    top: 160px;
-    color: rgb(145, 145, 145);
+    top: 150px;
+    color: rgb(162, 162, 162);
     font-family: Bellefair;
     font-size: 20px;
 }
 .crew-picture{
     position: absolute;
-    top: 233.7px;
+    top: 303.7px;
     left: 900px;
 }
        
        
 ::ng-deep.mat-tab-label .mat-tab-label-content {
     height: 34px;
-    font-size: 10px;
-    overflow: auto;
-    color: whitesmoke;
+    font-size: 15px;
+    width: 100px;
+    position: relative;
+    left: 0px;
+    color: 	whitesmoke!important;
     min-width: 0!important;
  padding: 3px!important;
  margin: 3px!important;
@@ -60,4 +69,6 @@
    }
    ::ng-deep.mat-tab-group {
     flex-direction: row;
+    position: absolute;
+    top: 20px;
 }
