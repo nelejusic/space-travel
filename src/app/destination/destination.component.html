@@ -1,0 +1,53 @@
+
+<span class="title">
+
+<p>
+
+   01  PICK YOUR DESTINATION
+</p>
+</span>
+<div>
+
+    <img class="planets" [src]='planetImg' alt="s">
+</div>
+
+<div class="container" >
+    <div>
+
+        <mat-tab-group style=" font-style: barlow;" (selectedTabChange)="onTabChange($event)">
+            <mat-tab label="01 MOON">  </mat-tab>
+            <mat-tab label="02 MARS">  </mat-tab>
+            <mat-tab label="03 EUROPA">  </mat-tab>
+            <mat-tab label="04 TITAN">  </mat-tab>
+          </mat-tab-group>
+    </div>
+               
+          <p class="planet-name">
+              {{planet}}
+          </p>
+      <p class="planet-description">
+            {{planetDescription}}
+      </p>
+      
+      <hr style="width:100%; text-align:left; position: absolute; top: 240px; height: 0.1px; color: #383B4B;">
+
+      <div style="position: absolute; top: 270px">
+          <p style="font-family: barlow; font-size: 15px; width: 97px; height: 15px; ;">
+                AVG.DISTANCE
+          </p>
+          <p style="font-family: BelleFair; font-size: 30px; width: 143; height: 32px;">
+            {{avgDistanceToPlanet}}
+          </p>
+      </div>
+       <div style="position: absolute; top: 270px; left: 311px;">
+          <p style="font-family: barlow; font-size: 15px; width: 97px; height: 15px; ;">
+            Est. travel time
+
+          </p>
+          <p style="font-family: BelleFair; font-size: 30px; width: 143; height: 32px;">
+            {{avgTravelTIme}}
+          </p>
+      </div>
+</div>
+
+

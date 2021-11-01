@@ -1,0 +1,58 @@
+.title{
+    flex-direction: column;
+    position: absolute;
+    top: 266.5px;
+    left: 240px;
+    font-family: barlow;
+    font-size:28px;
+    color: whitesmoke;
+    width: 382px;
+    height: 32px;
+}
+.planets{
+    position: absolute;
+    top: 366.5px;
+    left: 340px;
+    
+
+}   
+.container {
+    font-family: barlow;
+    color: whitesmoke;
+    width: 600px;
+    font-size:28px;
+    position: absolute;
+    top: 360.5px;
+    left: 1300px;
+}
+::ng-deep.mat-tab-label .mat-tab-label-content {
+    height: 34px;
+    font-size: 10px;
+    overflow: auto;
+    color: whitesmoke;
+    min-width: 0!important;
+ padding: 3px!important;
+ margin: 3px!important;
+
+}
+::ng-deep.mat-tab-label, ::ng-deep.mat-tab-label-active{
+    min-width: 0!important;
+    padding: 3px!important;
+    margin: 3px!important;
+    color: 	rgb(255,215,0)!important;
+   }
+   .planet-name{
+       position: absolute;
+       top: 110px;
+       font-family: Bellefair;
+       font-size: 100px;
+       color: whitesmoke;
+   }
+   .planet-description{
+       font-family: barlow;
+       font-size: 20px;
+       position: absolute; top: 180px;
+   }mat-divider {
+       color: whitesmoke;
+    width: 100%;
+}

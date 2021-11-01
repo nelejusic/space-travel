@@ -1,0 +1,38 @@
+
+
+.container {
+    position: absolute;
+    top:387px;
+    left: 465px;
+    width: 450px;
+    height: 382px;
+    flex-direction: row;
+}
+
+.title{
+        font-family: barlow;
+        font-size:28px;
+        color: whitesmoke;
+}
+.paragraph{
+    position:absolute;
+    top: 200px;
+    font-family: barlow;
+        font-size:18px;
+        color: whitesmoke;
+}
+.circle {
+    font-family: Bellefair;
+    font-size: 32px;
+    position: absolute;
+    left: 1401px;
+    width: 274px;
+    top:387px;
+  height: 274px;
+  line-height: 274px;
+  border-radius: 50%;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  background: rgb(255, 255, 255)
+}
