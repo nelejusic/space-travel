@@ -1,3 +1,5 @@
+import { DestinationService } from './destination/destination.service';
+import { CrewService } from './crew/crew.service';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import {MatIconModule} from '@angular/material/icon';
@@ -36,7 +38,7 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
     
 
   ],
-  providers: [],
+  providers: [CrewService, DestinationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
